@@ -1,0 +1,49 @@
+img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.header {
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.header ul {
+  list-style-type: none;
+  text-align: center;
+  background-color: rgb(130, 193, 200);
+}
+
+.header li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.header li a {
+  text-decoration: none;
+}
+
+.header li a:hover {
+  color: grey;
+}
+
+.skills ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.skills li {
+  display: inline-block;
+  padding: 30px;
+
+}
+
+.skills li svg {
+  width: 50px;
+  height: 50px;
+}
