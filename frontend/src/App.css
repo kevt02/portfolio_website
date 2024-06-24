@@ -1,3 +1,25 @@
+
+.App {
+  display: inline-flex;
+  margin: auto;
+  background-color: rgb(50, 49, 49);
+  color: white;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  display: inline-flex;
+}
+
+.skills {
+  height: 100vh;
+}
+
+.projects {
+  height: 100vh;
+}
+
 img {
   max-width: 50%;
   max-height: 50%;
@@ -7,30 +29,134 @@ h2 {
   text-align: center;
 }
 
+.content {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 15%;
+  padding-bottom: 30px;
+}
+
 .header {
-  align-items: center;
-  position: sticky;
-  top: 0;
+  text-align: center;
+  position: fixed;
+  height: 100vh;
+  width: 15%;
+  
+  background-color: black;
 }
 
 .header ul {
+  position: sticky;
+  top: 25%;
   list-style-type: none;
   text-align: center;
-  background-color: rgb(130, 193, 200);
+  padding: 15px;
 }
 
 .header li {
-  display: inline-block;
+  border-bottom:  rgb(127, 123, 123);;
+  display: block;
   padding: 20px;
+}
+
+
+.header a {
+  text-decoration: none;
+  color: rgb(43, 222, 232);
 }
 
 .header li a {
   text-decoration: none;
+  color: rgb(127, 123, 123);
+  font-weight: bold;
 }
 
 .header li a:hover {
+  color: rgb(43, 222, 232);
+}
+
+.aboutme {
+  height: 100vh;
+  width: 100%;
+  display: inline-block;
+}
+
+.aboutme img {
+  height: 15vh;
+  width: 15vh;
+}
+
+#education {
+  font-size: 20pt;
+}
+
+#statement {
+
+}
+
+.intro {
+  display: inline-flex;
+}
+
+.home img {
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+  border: solid;
+  border-color: rgb(43, 222, 232);
+
+}
+
+.welcome {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.welcome h1 {
+  font-size: 20vh;
+}
+
+.welcome p {
+  font-size: 10vh;
+}
+
+.aboutme a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.header a svg:hover {
   color: grey;
 }
+
+.header a svg {
+  width: 25px;
+  height: 25px;
+  color: rgb(43, 222, 232);
+  margin: 20px;
+}
+
+
+/* .profile {
+  width: fit-content;
+  height: 100%;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  border: solid;
+  border-color: rgb(130, 193, 200);
+  margin: 0;
+} */
+
+/* .profile-card {
+  width: 50%;
+  margin: auto;
+  padding: 0;
+  float: left;
+  border: solid;
+} */
+
+
 
 .skills ul {
   list-style-type: none;

@@ -7,7 +7,7 @@ import * as SiIcons from "react-icons/si";
 function Skills() {
     return (
         <div className="skills">
-            <h2>Skills</h2>
+            <h2>Skill Spotlight</h2>
 
             <ul>
                 <h3>Languages</h3>
